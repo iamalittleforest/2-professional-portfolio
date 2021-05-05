@@ -1,11 +1,25 @@
-# 2-professional-portfolio
-Week 2 Homework
+# Professional Portfolio
 
-# Description
+## Link
+https://iamalittleforest.github.io/2-professional-portfolio/
+
+## Languages & Technologies
+
+## Description
 Creating a portfolio of work to showcase my skills and projects
 
-# Screenshot
-<img src="assets/images/readme-screenshot.PNG" width="500">
+### User Story
 
-# Link
-https://iamalittleforest.github.io/2-professional-portfolio/
+### Acceptance Criteria
+
+## Screenshot
+<img src="assets/images/readme-screenshot.png" alt="screenshot">
+
+## Demo
+<img src="assets/images/README-demo.gif" alt="demo">
+
+## License
+MIT License
+
+## Contact Information
+Wendy Kobayashi (<wykobayashi@gmail.com>)
