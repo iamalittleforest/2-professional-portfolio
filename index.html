@@ -39,7 +39,7 @@
     <!-- desktop nav -->
     <nav>
       <div class="container nav-wrapper">
-        <span class="brand-logo nav-header">Wendy Kobayashi</span>
+        <span id="nav-title" class="brand-logo">Wendy Kobayashi</span>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="#about-me" alt="About Me">About Me</a></li>
@@ -76,46 +76,80 @@
       </div>
     </div> -->
 
-    <div id="my-work" class="my-work">
-      <h2>My Work</h2>
 
+    <div id="projects-container" class="container">
+        <div class="row row-padding">
 
-      <div class="card">
-        <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="images/office.jpg">
-        </div>
-        <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-          <p><a href="#">This is a link</a></p>
-        </div>
-        <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-          <p>Here is some more information about this product that is only revealed once clicked on.</p>
-        </div>
+          <div class="col s12 m12 l6">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="./assets/images/MakeIt_BuyIt.png">
+              </div>
+              <div class="card-content">
+                <span id="project-title" class="card-title activator grey-text text-darken-4">Make It / Buy It<i class="material-icons right">more_vert</i></span>
+                <p>A web application that retrieves recipes based on the provided ingredients and retrieves restaurants based on the provided location.</p>
+              </div>
+              <div class="card-reveal">
+                <span id="project-title" class="card-title grey-text text-darken-4">Make It / Buy It<i class="material-icons right">close</i></span>
+                <p><a href="https://iamalittleforest.github.io/project-1/" target="_blank">Deployed Application</a></p>
+                <p><a href="https://github.com/iamalittleforest/project-1" target="_blank">GitHub Repository</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m12 l6">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="./assets/images/Weather_Dashboard.png">
+              </div>
+              <div class="card-content">
+                <span id="project-title" class="card-title activator grey-text text-darken-4">Weather Dashboard<i class="material-icons right">more_vert</i></span>
+                <p>A weather dashboard that displays the current weather and future forecast for a location.</p>
+              </div>
+              <div class="card-reveal">
+                <span id="project-title" class="card-title grey-text text-darken-4">Weather Dashboard<i class="material-icons right">close</i></span>
+                <p><a href="https://iamalittleforest.github.io/6-weather-dashboard/" target="_blank">Deployed Application</a></p>
+                <p><a href="https://github.com/iamalittleforest/6-weather-dashboard" target="_blank">GitHub Repository</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m12 l6">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="./assets/images/Coding_Quiz.PNG">
+              </div>
+              <div class="card-content">
+                <span id="project-title" class="card-title activator grey-text text-darken-4">Code Quiz<i class="material-icons right">more_vert</i></span>
+                <p>A timed coding quiz with multiple-choice questions.</p>
+              </div>
+              <div class="card-reveal">
+                <span id="project-title" class="card-title grey-text text-darken-4">Code Quiz<i class="material-icons right">close</i></span>
+                <p><a href="https://iamalittleforest.github.io/4-code-quiz/" target="_blank">Deployed Application</a></p>
+                <p><a href="https://github.com/iamalittleforest/4-code-quiz" target="_blank">GitHub Repository</a></p>
+              </div>
+            </div>
+          </div>
       </div>
-
-      </div>
-
-  </div>
+    </div>
 
   </main>
   
-  <footer class="page-footer">
+  <footer id="contact-me" class="page-footer">
     <div class="container">
       <div class="row">
 
         <!-- Contact -->
         <div class="col s6 left-align">
-          <h5 class="white-text">Contact Me</h5>
+          <h5 id="footer-title" class="white-text">Contact Me</h5>
           <ul>
-            <li><i class="material-icons">email</i><a class="white-text" href="mailto:iamalittleforest@gmail.com"> wykobayashi@gmail.com</a></li>
-            <li><i class="material-icons">phone</i> (949)351-1008</li>
+            <li>Wendy Kobayashi</li>
+            <li><a class="white-text" href="mailto:wykobayashi@gmail.com">wykobayashi@gmail.com</a></li>
+            <li><a class="white-text" href="tel:9493511008">949-351-1008</a></li>
           </ul>
         </div>
 
         <!-- Links -->
         <div class="col s6 right-align">
-          <h5 class="white-text">Links</h5>
+          <h5 id="footer-title" class="white-text">Links</h5>
           <ul>
             <li><a class="white-text" href="https://www.github.com/iamalittleforest" target="_blank">GitHub</a></li>
             <li><a class="white-text" href="https://www.linkedin.com/in/wendy-kobayashi-374348203" target="_blank">LinkedIn</a></li>

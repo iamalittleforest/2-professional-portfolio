@@ -1,7 +1,4 @@
-.nav-header {
-  font-family: 'Duru Sans', sans-serif;
-  padding: 0 15px;
-}
+
 
 .nav-font {
   font-family: 'Roboto Slab', serif;
@@ -13,7 +10,21 @@
 }
 
 header,
-nav,
-footer {
-  background-color: slateblue;
+nav {
+  background-color: #892b64;
 }
+
+main {
+  background-color: #5C4D7D;
+}
+
+#contact-me {
+  background-color: #2E6F95;
+}
+
+#nav-title,
+#project-title,
+#footer-title {
+  font-family: 'Roboto Slab', serif;
+}
+
