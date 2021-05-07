@@ -21,7 +21,8 @@
     integrity="sha512-UJfAaOlIRtdR+0P6C3KUoTDAxVTuy3lnSXLyLKlHYJlcSU8Juge/mjeaxDNMlw9LgeIotgz5FP8eUQPhX1q10A==" 
     crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Duru+Sans&family=Roboto+Slab:wght@500&display=swap">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
@@ -33,53 +34,47 @@
 <!-- body -->
 <body>
 
-  <!-- header -->
-  <header>
+  <!-- desktop nav -->
+  <nav id="navigation-container">
+    <div class="container nav-wrapper">
+      <span id="nav-title" class="brand-logo">WENDY KOBAYASHI</span>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="#about-container" alt="About">About</a></li>
+        <li><a href="#portfolio-container" alt="Portfolio">Portfolio</a></li>
+        <li><a href="#contact-container" alt="Contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
-    <!-- desktop nav -->
-    <nav>
-      <div class="container nav-wrapper">
-        <span id="nav-title" class="brand-logo">Wendy Kobayashi</span>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="#about-me" alt="About Me">About Me</a></li>
-          <li><a href="#my-work" alt="My Work">My Work</a></li>
-          <li><a href="#contact-me" alt="Contact Me">Contact Me</a></li>
-        </ul>
-      </div>
-    </nav>
-
-    <!-- mobile nav -->
-    <ul class="sidenav" id="mobile-demo">
-      <li><a href="#about-me" alt="About Me">About Me</a></li>
-      <li><a href="#my-work" alt="My Work">My Work</a></li>
-      <li><a href="#contact-me" alt="Contact Me">Contact Me</a></li>
-    </ul>
-
-  </header>
+  <!-- mobile nav -->
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="#about-container" alt="About">About</a></li>
+    <li><a href="#portfolio-container" alt="Portfolio">Portfolio</a></li>
+    <li><a href="#contact-container" alt="Contact">Contact</a></li>
+  </ul>
   
   <!-- main -->
   <main>
     
-    <!-- <div class="container">
-      <div class="row">
-        
-        <div id="about-me" class="about-me">
-          <h4>About Me</h4>
-          <img src="./assets/images/about-me.jpg" width=500px alt="Profile Photo" />
-              <p>
-                  Hello! My name is Wendy Kobayashi. I am a mechanical engineer turned regulatory professional who recently discovered the world of coding. Weird, right? What started off as a routine software change request at work sparked an interest in making processes more efficient through coding and applications. Scroll down to see some of my recent work.
-              </p>        
-        </div>
-        
-        </div>
+    <div id="about-container">
+      <div class="container">
+        <div class="row center row-padding">
+            <h5 class="container-title">ABOUT ME</h5>
+            <img class="circle" 
+            src="./assets/images/about-me.jpg" width=500px alt="Profile Photo" />
+            <p>
+                Hello! My name is Wendy Kobayashi. I am a mechanical engineer turned regulatory professional who recently discovered the world of coding. Weird, right? What started off as a routine software change request at work sparked an interest in making processes more efficient through coding and applications. Scroll down to see some of my recent work.
+            </p>        
+        </div>  
       </div>
-    </div> -->
+    </div>
 
 
-    <div id="projects-container" class="container">
-        <div class="row row-padding">
-
+    <div id="portfolio-container"> 
+      <div class="container">
+        <div class="row center row-padding">
+          <h5 class="container-title">PORTFOLIO</h5>
           <div class="col s12 m12 l6">
             <div class="card">
               <div class="card-image waves-effect waves-block waves-light">
@@ -87,10 +82,10 @@
               </div>
               <div class="card-content">
                 <span id="project-title" class="card-title activator grey-text text-darken-4">Make It / Buy It<i class="material-icons right">more_vert</i></span>
-                <p>A web application that retrieves recipes based on the provided ingredients and retrieves restaurants based on the provided location.</p>
               </div>
               <div class="card-reveal">
                 <span id="project-title" class="card-title grey-text text-darken-4">Make It / Buy It<i class="material-icons right">close</i></span>
+                <p class="project-description">A web application that retrieves recipes based on the provided ingredients and retrieves restaurants based on the provided location.</p>
                 <p><a href="https://iamalittleforest.github.io/project-1/" target="_blank">Deployed Application</a></p>
                 <p><a href="https://github.com/iamalittleforest/project-1" target="_blank">GitHub Repository</a></p>
               </div>
@@ -103,10 +98,10 @@
               </div>
               <div class="card-content">
                 <span id="project-title" class="card-title activator grey-text text-darken-4">Weather Dashboard<i class="material-icons right">more_vert</i></span>
-                <p>A weather dashboard that displays the current weather and future forecast for a location.</p>
               </div>
               <div class="card-reveal">
                 <span id="project-title" class="card-title grey-text text-darken-4">Weather Dashboard<i class="material-icons right">close</i></span>
+                <p class="project-description">A weather dashboard that displays the current weather and future forecast for a location.</p>
                 <p><a href="https://iamalittleforest.github.io/6-weather-dashboard/" target="_blank">Deployed Application</a></p>
                 <p><a href="https://github.com/iamalittleforest/6-weather-dashboard" target="_blank">GitHub Repository</a></p>
               </div>
@@ -119,10 +114,10 @@
               </div>
               <div class="card-content">
                 <span id="project-title" class="card-title activator grey-text text-darken-4">Code Quiz<i class="material-icons right">more_vert</i></span>
-                <p>A timed coding quiz with multiple-choice questions.</p>
               </div>
               <div class="card-reveal">
                 <span id="project-title" class="card-title grey-text text-darken-4">Code Quiz<i class="material-icons right">close</i></span>
+                <p class="project-description">A timed coding quiz with multiple-choice questions.</p>
                 <p><a href="https://iamalittleforest.github.io/4-code-quiz/" target="_blank">Deployed Application</a></p>
                 <p><a href="https://github.com/iamalittleforest/4-code-quiz" target="_blank">GitHub Repository</a></p>
               </div>
@@ -130,39 +125,43 @@
           </div>
       </div>
     </div>
-
-  </main>
-  
-  <footer id="contact-me" class="page-footer">
-    <div class="container">
-      <div class="row">
-
-        <!-- Contact -->
-        <div class="col s6 left-align">
-          <h5 id="footer-title" class="white-text">Contact Me</h5>
+    
+    <!-- links -->
+    <div id="links-container">
+      <div class="container">
+        <div class="row center row-padding">
+          <h5 class="container-title">LINKS</h5>
+          <ul>
+            <li><a class="white-text" href="https://www.github.com/iamalittleforest" target="_blank">GitHub</a></li>
+            <li><a class="white-text" href="https://www.linkedin.com/in/wendy-kobayashi-374348203" target="_blank">LinkedIn</a></li>
+          </ul>
+        </div>       
+      </div>
+    </div>
+    
+    <!-- contact -->
+    <div id="contact-container">
+      <div class="container">
+        <div class="row center row-padding">
+          <h5 class="container-title">CONTACT ME</h5>
           <ul>
             <li>Wendy Kobayashi</li>
             <li><a class="white-text" href="mailto:wykobayashi@gmail.com">wykobayashi@gmail.com</a></li>
             <li><a class="white-text" href="tel:9493511008">949-351-1008</a></li>
           </ul>
-        </div>
-
-        <!-- Links -->
-        <div class="col s6 right-align">
-          <h5 id="footer-title" class="white-text">Links</h5>
-          <ul>
-            <li><a class="white-text" href="https://www.github.com/iamalittleforest" target="_blank">GitHub</a></li>
-            <li><a class="white-text" href="https://www.linkedin.com/in/wendy-kobayashi-374348203" target="_blank">LinkedIn</a></li>
-          </ul>
-        </div>
-
+        </div>       
       </div>
     </div>
-    <div class="footer-copyright">
-      <div class="container center">
-      © 2021 Wendy Kobayashi
+
+  </main>
+  
+  <!-- footer -->
+  <footer id="copyright-container">
+    <div class="container">
+      <div class="row center white-text row-padding">
+        © 2021 Wendy Kobayashi
       </div>
-    </div>
+    </div> 
   </footer>
 
   <!-- scripts -->

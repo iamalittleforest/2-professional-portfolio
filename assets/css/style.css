@@ -5,26 +5,50 @@
 }
 
 .row-padding {
-  padding: 20px;
+  padding: 10px;
   margin: 0px;
 }
 
-header,
-nav {
+#navigation-container {
+  background-color: #B7094C;
+}
+
+#about-container {
   background-color: #892b64;
 }
 
-main {
-  background-color: #5C4D7D;
+#portfolio-container {
+  background-color: #5c4d7d;
 }
 
-#contact-me {
+#contact-container {
   background-color: #2E6F95;
 }
 
-#nav-title,
-#project-title,
-#footer-title {
-  font-family: 'Roboto Slab', serif;
+#copyright-container {
+  background-color: #0091ad;
 }
+
+
+
+#nav-title {
+  font-size: 1.25rem;
+}
+
+.container-title {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+#project-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+  color: black;
+}
+
+.project-description {
+  color: black;
+}
+
+
 
