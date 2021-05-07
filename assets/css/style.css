@@ -1,150 +1,19 @@
-/* universal selectors */
-* {
-    font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
-  }
-
-  /* body */
-body {
-    max-width: 1200px;
-    padding: 25px;
-    margin: auto;
+.nav-header {
+  font-family: 'Duru Sans', sans-serif;
+  padding: 0 15px;
 }
 
-/* header */
-header {
-    background: black;
-    color: #fff;
-    padding: 10px;
-    text-align: left;
+.nav-font {
+  font-family: 'Roboto Slab', serif;
 }
 
-    header h1 {
-        margin: 10px
-    }
-
-/* navigation */
-nav {
-    background-color:gray;
-    display: flex;
-    justify-content: flex-end;
-} 
-
-    nav a {
-        color: white;
-        padding: 10px 25px;
-        text-align: center;
-        text-decoration: none;
-        text-transform: uppercase;
-    }
-
-/* main sections */
-.about-me,
-.my-work,
-.contact-me {
-    margin-top: 15px;
-    overflow: auto;
-    clear: both;
+.row-padding {
+  padding: 20px;
+  margin: 0px;
 }
 
-    /* about me */
-    .about-me img {
-        width: 50%;
-        display: block;
-        float: right;
-        border: 5px solid black;
-        margin: 0 10px 0 25px;
-    }
-
-    .about-me p {
-        display: block;
-        line-height: 2em;
-    }
-
-    /* my-work */
-    .row {
-        margin: 0;
-    }
-
-    .column {
-        float: left;
-        width: 50%;
-    }
-
-    .row::after {
-        content: " ";
-        display: table;
-        clear: both;
-    }
-
-    .project {
-        border: 5px solid black;
-        margin: 10px;
-        position: relative;
-        filter: grayscale(100%);
-    }
-
-        .project img {
-            display: block;
-            width: 100%;
-        }
-
-        .text-block {
-            color: black;
-            font-size: 25px;
-            font-weight: bold;
-            text-align: center;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background-color: white;
-            border: 5px solid black;
-            opacity: 0.85;
-            padding: 15px;
-        }
-
-        .project:hover {
-            filter: grayscale(0);
-        }
-
-    /* contact-me */
-    .logos {
-        text-align: center;
-    }
-
-        .email,
-        .github,
-        .linkedin {
-            display: inline-block;
-            margin: 0 10px 15px 10px;
-        }
-
-/* footer */
-footer p {    
-    background: gray;
-    color: white;
-    padding: 10px;
-    text-align: center;
-  }
-
-footer a {
-    color: black;
-    text-align: center;
-    text-decoration: none;
-}
-
-/* media query */
-@media screen and (max-width: 768px) {
-    /* update layout of projects */
-    .column {
-        width: 100%;
-    }
-
-    /* update size of logos */
-    .email img,
-    .github img,
-    .linkedin img {
-        max-height: 64px;
-    }
+header,
+nav,
+footer {
+  background-color: slateblue;
 }
