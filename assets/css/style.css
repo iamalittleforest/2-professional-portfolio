@@ -23,14 +23,10 @@
   background-color: #0091AD;
 }
 
-#nav-title {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.25rem;
-  font-weight: 500;
-}
-
+#nav-title,
 #nav-link {
   font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
   font-weight: 500;
 }
 
@@ -49,16 +45,21 @@
   border: solid 7px #F0F0F0;
 }
 
-#about-description {
+#about-description,
+#project-description {
   font: #000000;
 }
 
-#project-container {
-  padding: 10px;
+#project {
+  height: 100%;
 }
 
 #project-img {
   border-bottom: solid 1px #F0F0F0;
+}
+
+#project-container {
+  padding: 10px;
 }
 
 #project-title {
@@ -67,10 +68,6 @@
   font-size: 1.25rem;
   color: #000000;
   margin: 0;
-}
-
-.project-description {
-  color: black;
 }
 
 #project-links {
@@ -84,10 +81,9 @@
   margin: 0 10px;
 }
 
-/* #links:hover {
-  color: #0091AD;
-} */
-
+#links:hover {
+  background-color: #374A6D;
+}
 
 .btn-link {
   background-color: #5C4D7D;
@@ -107,5 +103,45 @@
 
 /* for large screens */
 @media only screen and (min-width: 992px) {
+  #nav-title,
+  #nav-link {
+    font-size: 1.5rem;
+  }
+  
+  .container-title {
+    font-size: 2.25rem;
+    margin-top: 5px; 
+    margin-bottom: 15px;
+  }
+  
+  #about-img {
+    height: 250px;
+    width: 250px;
+  }
+  
+  #about-description,
+  #project-description {
+    font-size: 1.5rem;
+  }
+  
+  #project-title {
+    font-size: 2rem;
+    padding-top: 15px;
+  }
 
+  #project-description {
+    padding: 10px;
+  }
+  
+  #links {
+    font-size: 1.25rem;
+  }
+
+  .btn-link,
+  .btn-contact {
+    height: 75px;
+    width: 75px;
+    padding-top: 16px;
+    margin: 10px;
+  }
 }
