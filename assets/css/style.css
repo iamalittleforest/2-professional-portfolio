@@ -97,9 +97,48 @@
 
 /* for medium screens */
 @media only screen and (min-width: 600px) {
+  #nav-title,
+  #nav-link {
+    font-size: 1.75rem;
+  }
+  
+  .container-title {
+    font-size: 2rem;
+    margin-top: 5px; 
+    margin-bottom: 15px;
+  }
+  
+  #about-img {
+    height: 200px;
+    width: 200px;
+  }
+  
+  #about-description,
+  #project-description {
+    font-size: 1.5rem;
+  }
+  
+  #project-title {
+    font-size: 1.75rem;
+    padding-top: 15px;
+  }
 
+  #project-description {
+    padding: 10px;
+  }
+  
+  #links {
+    font-size: 1.25rem;
+  }
+
+  .btn-link,
+  .btn-contact {
+    height: 50px;
+    width: 50px;
+    padding-top: 5px;
+    margin: 10px;
+  }
 }
-
 
 /* for large screens */
 @media only screen and (min-width: 992px) {
