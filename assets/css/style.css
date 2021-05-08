@@ -1,3 +1,4 @@
+/* for all screens */
 .row-padding {
   padding: 20px;
   margin: 0px;
@@ -23,6 +24,21 @@
   background-color: #0091AD;
 }
 
+
+#project-img {
+  border-bottom: solid 1px #F0F0F0;
+}
+
+#project-container {
+  padding: 10px;
+}
+
+#project-links {
+  background-color: #455E89; 
+  padding: 10px;
+}
+
+/* for small screens */
 #nav-title,
 #nav-link {
   font-family: 'Montserrat', sans-serif;
@@ -50,18 +66,6 @@
   font: #000000;
 }
 
-#project {
-  height: 100%;
-}
-
-#project-img {
-  border-bottom: solid 1px #F0F0F0;
-}
-
-#project-container {
-  padding: 10px;
-}
-
 #project-title {
   font-family: 'Roboto Slab', serif;
   font-weight: 700;
@@ -70,19 +74,10 @@
   margin: 0;
 }
 
-#project-links {
-  background-color: #455E89; 
-  padding: 10px;
-}
-
 #links {
   font-weight:500;
   color: #FFFFFF;
   margin: 0 10px;
-}
-
-#links:hover {
-  background-color: #374A6D;
 }
 
 .btn-link {
