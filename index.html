@@ -20,10 +20,16 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" 
     integrity="sha512-UJfAaOlIRtdR+0P6C3KUoTDAxVTuy3lnSXLyLKlHYJlcSU8Juge/mjeaxDNMlw9LgeIotgz5FP8eUQPhX1q10A==" 
     crossorigin="anonymous">
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
   <!-- title -->
@@ -64,7 +70,7 @@
             <img class="circle" 
             src="./assets/images/about-me.jpg" width=500px alt="Profile Photo" />
             <p>
-                Hello! My name is Wendy Kobayashi. I am a mechanical engineer turned regulatory professional who recently discovered the world of coding. Weird, right? What started off as a routine software change request at work sparked an interest in making processes more efficient through coding and applications. Scroll down to see some of my recent work.
+                Hello! My name is Wendy Kobayashi. I am a mechanical engineer turned regulatory professional who recently discovered the world of coding. Weird, right? Scroll down to see some of my recent work.
             </p>        
         </div>  
       </div>
@@ -80,11 +86,11 @@
               <div class="card-image waves-effect waves-block waves-light">
                 <img class="activator" src="./assets/images/MakeIt_BuyIt.png">
               </div>
-              <div class="card-content">
-                <span id="project-title" class="card-title activator grey-text text-darken-4">Make It / Buy It<i class="material-icons right">more_vert</i></span>
+              <div class="project-container">
+                <span class="project-title">Make It / Buy It<i class="material-icons right">more_vert</i></span>
               </div>
               <div class="card-reveal">
-                <span id="project-title" class="card-title grey-text text-darken-4">Make It / Buy It<i class="material-icons right">close</i></span>
+                <span class="project-title">Make It / Buy It<i class="material-icons right">close</i></span>
                 <p class="project-description">A web application that retrieves recipes based on the provided ingredients and retrieves restaurants based on the provided location.</p>
                 <p><a href="https://iamalittleforest.github.io/project-1/" target="_blank">Deployed Application</a></p>
                 <p><a href="https://github.com/iamalittleforest/project-1" target="_blank">GitHub Repository</a></p>
@@ -96,11 +102,11 @@
               <div class="card-image waves-effect waves-block waves-light">
                 <img class="activator" src="./assets/images/Weather_Dashboard.png">
               </div>
-              <div class="card-content">
-                <span id="project-title" class="card-title activator grey-text text-darken-4">Weather Dashboard<i class="material-icons right">more_vert</i></span>
+              <div class="project-container">
+                <span class="project-title">Weather Dashboard<i class="material-icons right">more_vert</i></span>
               </div>
               <div class="card-reveal">
-                <span id="project-title" class="card-title grey-text text-darken-4">Weather Dashboard<i class="material-icons right">close</i></span>
+                <span class="project-title">Weather Dashboard<i class="material-icons right">close</i></span>
                 <p class="project-description">A weather dashboard that displays the current weather and future forecast for a location.</p>
                 <p><a href="https://iamalittleforest.github.io/6-weather-dashboard/" target="_blank">Deployed Application</a></p>
                 <p><a href="https://github.com/iamalittleforest/6-weather-dashboard" target="_blank">GitHub Repository</a></p>
@@ -112,11 +118,11 @@
               <div class="card-image waves-effect waves-block waves-light">
                 <img class="activator" src="./assets/images/Coding_Quiz.PNG">
               </div>
-              <div class="card-content">
-                <span id="project-title" class="card-title activator grey-text text-darken-4">Code Quiz<i class="material-icons right">more_vert</i></span>
+              <div class="project-container">
+                <span class="project-title">Code Quiz<i class="material-icons right">more_vert</i></span>
               </div>
               <div class="card-reveal">
-                <span id="project-title" class="card-title grey-text text-darken-4">Code Quiz<i class="material-icons right">close</i></span>
+                <span class="project-title">Code Quiz<i class="material-icons right">close</i></span>
                 <p class="project-description">A timed coding quiz with multiple-choice questions.</p>
                 <p><a href="https://iamalittleforest.github.io/4-code-quiz/" target="_blank">Deployed Application</a></p>
                 <p><a href="https://github.com/iamalittleforest/4-code-quiz" target="_blank">GitHub Repository</a></p>
@@ -131,10 +137,8 @@
       <div class="container">
         <div class="row center row-padding">
           <h5 class="container-title">LINKS</h5>
-          <ul>
-            <li><a class="white-text" href="https://www.github.com/iamalittleforest" target="_blank">GitHub</a></li>
-            <li><a class="white-text" href="https://www.linkedin.com/in/wendy-kobayashi-374348203" target="_blank">LinkedIn</a></li>
-          </ul>
+            <a class="btn-floating btn-link" href="https://www.github.com/iamalittleforest" target="_blank"><i class="fab fa-github"></i></a>
+            <a class="btn-floating btn-link"  href="https://www.linkedin.com/in/wendy-kobayashi-374348203" target="_blank"><i class="fab fa-linkedin-in"></i></a>
         </div>       
       </div>
     </div>
@@ -144,10 +148,8 @@
       <div class="container">
         <div class="row center row-padding">
           <h5 class="container-title">CONTACT ME</h5>
-          <ul>
-            <li>Wendy Kobayashi</li>
-            <li><a class="white-text" href="mailto:wykobayashi@gmail.com">wykobayashi@gmail.com</a></li>
-            <li><a class="white-text" href="tel:9493511008">949-351-1008</a></li>
+            <a class="btn-floating btn-contact" href="mailto:wykobayashi@gmail.com"><i class="far fa-envelope"></i></a>
+            <a class="btn-floating btn-contact" href="tel:9493511008"><i class="fas fa-phone"></i></a>
           </ul>
         </div>       
       </div>

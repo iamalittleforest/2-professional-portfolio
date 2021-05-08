@@ -1,32 +1,30 @@
-
-
-.nav-font {
-  font-family: 'Roboto Slab', serif;
-}
-
 .row-padding {
   padding: 10px;
   margin: 0px;
 }
 
 #navigation-container {
-  background-color: #B7094C;
+  background-color: #733C71;
 }
 
 #about-container {
-  background-color: #892b64;
+  background-color: #F4F2F7;
 }
 
 #portfolio-container {
-  background-color: #5c4d7d;
+  background-color: #f8f9fa;
+}
+
+#links-container {
+  background-color: #F4F2F7;
 }
 
 #contact-container {
-  background-color: #2E6F95;
+  background-color: #f8f9fa;
 }
 
 #copyright-container {
-  background-color: #0091ad;
+  background-color: #0091AD;
 }
 
 
@@ -37,17 +35,33 @@
 
 .container-title {
   font-family: 'Montserrat', sans-serif;
-  color: white;
+  font-weight: 700;
+  color: black;
 }
 
-#project-title {
-  font-family: 'Montserrat', sans-serif;
+.project-container {
+  background-color: #5C4D7D;
+  padding: 15px;
+}
+
+.project-title {
+  font-family: 'Roboto Slab', serif;
   font-size: 1.25rem;
-  color: black;
+  color: white;
 }
 
 .project-description {
   color: black;
+}
+
+.btn-link {
+  background-color: #455E89; 
+  margin: 5px;
+}
+
+.btn-contact {
+  background-color: #2e6f95; 
+  margin: 5px;
 }
 
 
