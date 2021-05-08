@@ -39,23 +39,31 @@
 }
 
 #project-container {
-  background-color: #455E89; 
   padding: 10px;
-  z-index: 1;
 }
 
 #project-title {
   font-family: 'Roboto Slab', serif;
+  font-weight: 700;
   font-size: 1.25rem;
-  color: white;
+  color: black;
   margin: 0;
 }
 
-#project-title-reveal {
-  font-family: 'Roboto Slab', serif;
-  font-size: 1.25rem;
-  color: black;
+#project-links {
+  background-color: #455E89; 
+  padding: 10px;
 }
+
+#links {
+  font-weight:500;
+  color: white;
+  margin: 0 10px;
+}
+
+/* #links:hover {
+  color: #0091AD;
+} */
 
 .project-description {
   color: black;
@@ -66,16 +74,11 @@
   margin: 5px;
 }
 
-.btn-project {
-  background-color: #B8B8B8;
-  z-index: 2;
-}
-
 .btn-contact {
-  background-color: #2e6f95; 
+  background-color: #2E6F95; 
   margin: 5px;
 }
 
-img {
-  border: 5px #D4D4D4;
+#project-img {
+  border-bottom: 1px #000000;
 }
