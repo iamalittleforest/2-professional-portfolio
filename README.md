@@ -24,8 +24,6 @@ SO THAT I can review samples of their work and assess whether they're a good can
 ### Acceptance Criteria
 
 ```
-Your updated portfolio should:
-
 1. Display your full name, email, and phone number
 2. Have links to your GitHub profile and LinkedIn profile
 3. Have a link to a downloadable PDF of your resume
