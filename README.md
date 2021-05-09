@@ -4,6 +4,11 @@
 https://iamalittleforest.github.io/2-professional-portfolio/
 
 ## Languages & Technologies
+* HTML
+* CSS
+* Javascript
+* Materialize CSS
+* jQuery
 
 ## Description
 Creating a portfolio of work to showcase my skills and projects
@@ -18,6 +23,7 @@ SO THAT I can review samples of their work and assess whether they're a good can
 
 ### Acceptance Criteria
 
+```
 Your updated portfolio should:
 
 1. Display your full name, email, and phone number
@@ -37,6 +43,7 @@ Your updated portfolio should:
     * Screenshot of the deployed application
 
 5. Have a polished, mobile-responsive user interface.
+```
 
 ## Screenshot
 <img src="assets/images/README-screenshot.png" alt="screenshot">
