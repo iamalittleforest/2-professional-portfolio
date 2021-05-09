@@ -11,7 +11,7 @@ https://iamalittleforest.github.io/2-professional-portfolio/
 * jQuery
 
 ## Description
-Creating a portfolio of work to showcase my skills and projects
+Updated portfolio to showcase my skills and projects.
 
 ### User Story
 
