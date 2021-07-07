@@ -24,6 +24,10 @@
   background-color: #0091AD;
 }
 
+.project-card {
+  display: inline-block;
+  width: 100%;
+}
 
 #project-img {
   border-bottom: solid 1px #F0F0F0;
