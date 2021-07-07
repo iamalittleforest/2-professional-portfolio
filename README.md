@@ -12,7 +12,7 @@ https://iamalittleforest.github.io/2-professional-portfolio/
 Updated portfolio to showcase my skills and projects.
 
 ## Screenshot
-<img src="assets/images/README-screenshot.png" alt="screenshot">
+<img src="assets/images/README-screenshot.PNG" alt="screenshot">
 
 ## Demo
 <img src="assets/images/README-demo.gif" alt="demo">
