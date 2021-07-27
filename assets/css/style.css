@@ -70,10 +70,14 @@
   font: #000000;
 }
 
+#project-description {
+  padding: 10px;
+}
+
 #project-tech {
   font-style: italic;
   font-weight: bold;
-  font-size: 1.285rem;
+  font-size: 0.75rem;
 }
 
 #project-title {
@@ -124,7 +128,7 @@
   }
 
   #project-tech {
-    font-size: 1.35;
+    font-size: 1.35rem;
   }  
   
   #project-title {
@@ -173,7 +177,7 @@
   }
 
   #project-tech {
-    font-size: 1.35;
+    font-size: 1.35rem;
   }  
   
   #project-title {
