@@ -34,7 +34,7 @@
 }
 
 #project-container {
-  padding: 10px;
+  padding: 20px;
 }
 
 #project-links {
@@ -68,6 +68,12 @@
 #about-description,
 #project-description {
   font: #000000;
+}
+
+#project-tech {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.285rem;
 }
 
 #project-title {
@@ -116,6 +122,10 @@
   #project-description {
     font-size: 1.5rem;
   }
+
+  #project-tech {
+    font-size: 1.35;
+  }  
   
   #project-title {
     font-size: 2rem;
@@ -161,10 +171,14 @@
   #project-description {
     font-size: 1.5rem;
   }
+
+  #project-tech {
+    font-size: 1.35;
+  }  
   
   #project-title {
     font-size: 2rem;
-    padding-top: 15px;
+    padding-top: 0;
   }
 
   #project-description {
